@@ -6,7 +6,9 @@
 2° Baixar os novos scripts pelo github.
   
   cd /etc/zabbix/scrips/
+  
   git clone https://github.com/leninalexander/OnuOLTHuawei.git
+  
   cd /etc/zabbix/scripts/OnuOLTHuawei/
   
   mv index-oid.txt /usr/share/snmp/mibs/iana/
