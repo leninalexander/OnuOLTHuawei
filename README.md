@@ -14,6 +14,7 @@
   rm README.md  zbx_export_templates.xml
 
 3° Editar o user parameter do agente colocando da seguinte forma: 
+
       UserParameter=qt_on[*],/etc/zabbix/scripts/ont_on.sh $1 $2 $3  ( Para coleta de ONT's online )
       UserParameter=qt_off[*],/etc/zabbix/scripts/ont_off.sh $1 $2 $3 ( Para coleta de ONT's Offline )
 
