@@ -5,7 +5,7 @@
 
 2° Baixar os novos scripts pelo github.
   
-  cd /etc/zabbix/scrips/
+  cd /etc/zabbix/scripts/
   
   git clone https://github.com/leninalexander/OnuOLTHuawei.git
   
