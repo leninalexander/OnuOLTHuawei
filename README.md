@@ -13,9 +13,9 @@
   
   mv index-oid.txt /usr/share/snmp/mibs/iana/
   
-  mv * /etc/zabbix/scripts/
-  
   rm README.md  zbx_export_templates.xml 
+  
+  mv * /etc/zabbix/scripts/
   
   chown zabbix:zabbix /etc/zabbix/scripts/ -R
 
