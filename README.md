@@ -12,9 +12,13 @@
   mv index-oid.txt /usr/share/snmp/mibs/iana
   
   rm README.md  zbx_export_templates.xml
-  
-3° Importar o template no zabbix server;
+
+3° Editar o user parameter do agente colocando da seguinte forma: 
+      UserParameter=qt_on[*],/etc/zabbix/scripts/ont_on.sh $1 $2 $3  ( Para coleta de ONT's online )
+      UserParameter=qt_off[*],/etc/zabbix/scripts/ont_off.sh $1 $2 $3 ( Para coleta de ONT's Offline )
+
+4° Importar o template no zabbix server;
  
-4° Adicionar o normalmente o hot (OLT) e incluir o template.
+5° Adicionar o normalmente o hot (OLT) e incluir o template.
 
   
