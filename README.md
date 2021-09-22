@@ -9,9 +9,13 @@
   git clone https://github.com/leninalexander/OnuOLTHuawei.git
   cd /etc/zabbix/scripts/OnuOLTHuawei/
   
-  mv index-oid.txt /usr/share/snmp/mibs/iana
+  mv index-oid.txt /usr/share/snmp/mibs/iana/
   
-  rm README.md  zbx_export_templates.xml
+  mv * /etc/zabbix/scripts/
+  
+  rm README.md  zbx_export_templates.xml 
+  
+  chown zabbix:zabbix /etc/zabbix/scripts/ -R
 
 3° Editar o user parameter do agente colocando da seguinte forma: 
 
