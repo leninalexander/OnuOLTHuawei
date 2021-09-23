@@ -26,6 +26,5 @@
 
 4° Importar o template no zabbix server;
  
-5° Adicionar o normalmente o hot (OLT) e incluir o template.
 
   
